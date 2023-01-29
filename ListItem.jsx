@@ -1,7 +1,7 @@
-function ListItem(){
+function ListItem(props){
     return(
         <li>
-            <span>Task Value</span>
+            <span>{props.taskVal}</span>
             <button>X</button>
         </li>
     )
